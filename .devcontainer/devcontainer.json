@@ -1,0 +1,13 @@
+{
+    "name": "UIU CollabHub PHP",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspace",
+    "forwardPorts": [8000],
+    "portsAttributes": {
+        "8000": {
+            "label": "UIU CollabHub",
+            "onAutoForward": "notify"
+        }
+    }
+}
