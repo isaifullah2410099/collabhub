@@ -1,32 +1,16 @@
-# UIU CollabHub
+Then start the website:
 
-UIU CollabHub is a simple student collaboration class project made with HTML, CSS, JavaScript, PHP and MySQL/MariaDB.
+```bash
+php -S 0.0.0.0:8000
+```
 
-Students can register, login, post personal projects/research/freelance gigs, search by skills, send proposals, form teams and show portfolio work. An admin account can manage users and projects.
+Then save your changes with:
 
-> This is a student class project and is not an official United International University website.
-
----
-
-## Main Features
-
-- Student registration with duplicate Student ID check
-- Student login
-- Forgot password using a security question
-- Home page with recent projects
-- Search and filter projects
-- Post personal projects, research work, academic projects or freelance gigs
-- Skills saved as comma-separated tags
-- Send a proposal to join a project
-- Project owner can accept or reject applicants
-- Student dashboard
-- Student profile and portfolio
-- Admin dashboard
-- Admin can edit/delete users
-- Admin can edit/delete projects
-- Demo students and projects are already included in `database.sql`
-
----
+```bash
+git add .
+git commit -m "describe what you changed"
+git push
+```
 
 # Login
 
@@ -63,6 +47,38 @@ The security question is:
 `What is your favourite color?`
 
 ---
+
+# UIU CollabHub
+
+UIU CollabHub is a simple student collaboration class project made with HTML, CSS, JavaScript, PHP and MySQL/MariaDB.
+
+Students can register, login, post personal projects/research/freelance gigs, search by skills, send proposals, form teams and show portfolio work. An admin account can manage users and projects.
+
+> This is a student class project and is not an official United International University website.
+
+---
+
+## Main Features
+
+- Student registration with duplicate Student ID check
+- Student login
+- Forgot password using a security question
+- Home page with recent projects
+- Search and filter projects
+- Post personal projects, research work, academic projects or freelance gigs
+- Skills saved as comma-separated tags
+- Send a proposal to join a project
+- Project owner can accept or reject applicants
+- Student dashboard
+- Student profile and portfolio
+- Admin dashboard
+- Admin can edit/delete users
+- Admin can edit/delete projects
+- Demo students and projects are already included in `database.sql`
+
+---
+
+
 
 # Method 1 - GitHub Codespaces
 
@@ -148,13 +164,7 @@ sudo apt-get install -y git-lfs
 
 The new Dockerfile already installs Git LFS automatically, but the commands above are useful if an older Codespace was created before that change.
 
-Then save your changes with:
 
-```bash
-git add .
-git commit -m "describe what you changed"
-git push
-```
 
 Then check the repository status:
 

@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+.orange-word{
+    color: var(--orange);
+}
+
 :root{
     --orange: #ff5a14;
     --orange-light: #ffc6aa;
@@ -197,7 +201,7 @@ button.primary:hover,
 .page-kicker{
     margin: 0 0 12px;
     color: var(--orange);
-    font-size: 10px;
+    font-size: 20px;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.11em;
@@ -1216,4 +1220,36 @@ th{
     .site-footer{
         flex-direction: column;
     }
+}
+
+
+/* Move only the left hero text upward */
+.home-hero-text{
+    transform: translateY(-40px);
+}
+
+
+/* Area for the graphic on the right */
+.home-graphic-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 0px;
+    margin-bottom: 0px;
+}
+
+
+/* The actual graphic */
+.home-graphic{
+    width: 280px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* Move only the right text and buttons upward */
+.hero-side-text{
+    transform: translateY(-30px);
 }

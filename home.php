@@ -22,19 +22,55 @@ $result = $conn->query($sql);
 
 <main class="page-container">
     <section class="home-hero">
-        <div>
-            <p class="page-kicker">Welcome, <?= htmlspecialchars($_SESSION['name']) ?></p>
-            <h1>Find people worth building with.</h1>
-        </div>
 
-        <div class="hero-side">
-            <p>Search by skill, idea, or interest. Discover student projects that need collaborators and turn your work into a portfolio.</p>
+    <!-- Left side of the home page -->
+    <div class="home-hero-text">
+        <p class="page-kicker">
+            Welcome, <?= htmlspecialchars($_SESSION['name']) ?>
+        </p>
+
+        <h1>
+            Find people worth
+            <span class="orange-word">building</span>
+            with.
+        </h1>
+    </div>
+
+
+    <!-- Right side of the home page -->
+    <div class="hero-side">
+
+        <!-- Graphic
+        <div class="home-graphic-box">
+            <img
+                src="Wrap.png"
+                alt="CollabHub graphic"
+                class="home-graphic"
+            >
+        </div> -->
+
+        <!-- Right side text -->
+        <div class="hero-side-text">
+            <p>
+                Search by skill, idea, or interest.
+                Discover student projects that need collaborators
+                and turn your work into a portfolio.
+            </p>
+
             <div class="hero-actions">
-                <a class="button-link primary" href="projects.php">Explore Projects</a>
-                <a class="button-link" href="dashboard.php">Your Dashboard</a>
+                <a class="button-link primary" href="projects.php">
+                    Explore Projects
+                </a>
+
+                <a class="button-link" href="dashboard.php">
+                    Your Dashboard
+                </a>
             </div>
         </div>
-    </section>
+
+    </div>
+
+</section>
 
     <section class="search-section">
         <div class="search-title-row">
